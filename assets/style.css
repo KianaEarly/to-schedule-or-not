@@ -1,8 +1,10 @@
+/* gives font family and size to the body element */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
   }
   
+  /* gives style to the text area */
   textarea {
     background: transparent;
     border: none;
@@ -12,39 +14,47 @@ body {
     padding: 10px;
   }
   
+  /* gives style to the description element */
   .description {
     white-space: pre-wrap;
   }
   
+  /* gives style to the time block */
   .time-block {
     border-radius: 15px;
   }
   
+  /* gives style to the hour elements */
   .row {
     border-top: 1px solid white;
   }
   
+  /* gives style to the hour elements */
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
   }
   
+  /* codes the past color */
   .past {
     background-color: #d3d3d3;
     color: white;
   }
   
+  /* codes present color */
   .present {
     background-color: #ff6961;
     color: white;
   }
   
+  /* codes future color */
   .future {
     background-color: #77dd77;
     color: white;
   }
   
+  /* gives style to the save button */
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -53,6 +63,7 @@ body {
     color: white;
   }
   
+  /* gives hover function to the save button */
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
